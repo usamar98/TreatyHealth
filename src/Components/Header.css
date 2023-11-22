@@ -1,1 +1,12 @@
-hello
+.bg{
+    background-image: url('');
+}
+.main{
+    background-image:url('../assets/bg.jpg') ;
+}
+.size{
+    font-size: 1.9em;
+}
+.gap{
+    gap: 100px;
+}
