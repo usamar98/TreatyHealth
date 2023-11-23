@@ -1,12 +1,42 @@
-.bg{
-    background-image: url('');
+:root{
+    color: rgb(71 184 199);
+}
+.home{
+    color: rgb(71 184 199);
 }
 .main{
     background-image:url('../assets/bg.jpg') ;
 }
-.size{
-    font-size: 1.9em;
+.logo-size{
+    font-size: 2.3em;
+   line-height: 1;
 }
 .gap{
-    gap: 100px;
+    gap: 80px;
 }
+ li{
+    font-size: 25px;
+    font-weight: 600;
+   
+}
+
+.size{
+    font-size: 30px;
+    font-weight: 500;
+}
+.radius {
+    border-color: rgb(71 184 199);
+    margin-left: 20%;
+    
+}
+.home-2{
+    color: red;
+   
+}
+.line{
+    width: 90px;
+    height: 45px;
+    border-bottom: 5px solid red;
+      position: absolute;
+    }
+  

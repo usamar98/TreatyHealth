@@ -13,51 +13,51 @@ const Main = () => {
       <div class="row d-flex justify-content-evenly padding ">
       
 <div className="col-lg-2  ">
-<div className="container text-center mt-4">
-      <div className=" border rounded-circle p-5" >
-        <img src={chat} alt=""   className="img-fluid " />
+<div className="container flex text-center mt-4">
+      <div className=" bord  p-5">
+        <img src={chat} alt=""   className="img-fluid img" />
       </div>
-      <span>Messaging</span>
+      <span className='heading'>Messaging</span>
       <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
     </div>
     </div>
 
     <div className="col-lg-2 ">
-    <div className="container text-center mt-4">
-      <div className=" border rounded-circle  p-5">
-        <img src={Schedule} alt="Image" className="img-fluid" />
+    <div className="container flex text-center mt-4">
+      <div className=" bord  p-5">
+        <img src={Schedule} alt="Image" className="img-fluid img" />
       </div>
-      <span>Medication</span>
+      <span className='heading'>Medication</span>
       <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa commodi autem ex magnam praesentium unde, </p>
     </div>
     </div>
 
     <div className="col-lg-2 ">
-    <div className="container text-center mt-4">
-      <div className=" border rounded-circle  p-5">
-        <img src={medication} alt="Image" className="img-fluid" />
+    <div className="container flex text-center mt-4">
+      <div className=" bord  p-5">
+        <img src={medication} alt="Image" className="img-fluid img" />
       </div>
-      <span>Schdule</span>
+      <span className='heading'>Schdule</span>
       <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa commodi autem ex magnam praesentium unde, maiores labore ab corrupti</p>
     </div>
     </div>
 
     <div className="col-lg-2 ">
-    <div className="container text-center mt-4">
-      <div className=" border rounded-circle  p-5">
-        <img src={Compliance} alt="Image" className="img-fluid" />
+    <div className="container flex text-center mt-4">
+      <div className=" bord  p-5">
+        <img src={Compliance} alt="Image" className="img-fluid img" />
       </div>
-      <span>Complance</span>
+      <span className='heading'>Complance</span>
       <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa commodi autem ex magnam praesentium unde, maiores </p>
     </div>
     </div>
 
     <div className="col-lg-2 ">
-    <div className="container text-center mt-4">
-      <div className=" border rounded-circle  p-5">
-        <img src={TrackVisit} alt="Image" className="img-fluid" />
+    <div className="container flex text-center mt-4">
+      <div className=" bord  p-5">
+        <img src={TrackVisit} alt="Image" className="img-fluid img" />
       </div>
-      <span>Track Visit</span>
+      <span className='heading'>Track Visit</span>
       <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa commodi autem ex magnam praesentium unde, maiores labore ab </p>
     </div>
     </div>
