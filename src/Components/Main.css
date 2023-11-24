@@ -23,3 +23,14 @@
     font-weight: 500;
     padding-top: 30px;
 }
+#root{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.color{
+    font-weight: 300;
+    font-size: 1.2em;
+    color: light;
+    line-height: 1.2;
+}

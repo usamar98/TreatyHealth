@@ -9,6 +9,11 @@ import logo from '../assets/logo.jpg'
 
  
 const Header = () => {
+  const borderStyle = {
+    border: '2px solid rgb(73, 139, 148)', 
+   
+   
+  };
 
   const settings = {
     dots: true,
@@ -18,6 +23,7 @@ const Header = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
+
   };
 
   
@@ -26,16 +32,16 @@ const Header = () => {
     <>
     <section className='section1 '>
     <div class="container-fluid">
-  <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-evenly py-3 px-5">
+  <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-evenly py-3 ">
 
-    <a class="navbar-brand ms-5" href="#"><img src={logo} alt="" /><span class='logo-size'>treaty</span></a>
+    <a class="navbar-brand ms-0" href="#"><img src={logo} alt="" /><span class='logo-size'>treaty</span></a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-     <div class="collapse navbar-collapse " id="navbarSupportedContent">
-      <ul class="navbar-nav navbar-navv ms-auto  gap-5">
+   
+      <div class="collapse navbar-collapse d-lg-flex justify-content-evenly nac" id="navbarSupportedContent">
+      <ul class="navbar-nav  ms   gap">
         <li class="nav-item home">
           <a class="nav-link home-2" href="#" data-bs-dismiss="collapse">Home</a>
           <span className='line'></span>
@@ -49,12 +55,16 @@ const Header = () => {
         <li class="nav-item word-size">
           <a class="nav-link home" href="#" data-bs-dismiss="collapse">Contact</a>
         </li>
+        </ul>
   
-        <li class="nav-item border border-2 rounded-pill radius ms-5 ps-2">
-          <a class="nav-link  px-4 home home-3" href="#" data-bs-dismiss="collapse">Login/Register</a>
-        </li>
-      </ul>
-    </div> 
+        <form class="d-flex border  rounded-pill " style={borderStyle}>
+          <a class="nav-link  px-4 py-2 home home-3" href="#" data-bs-dismiss="collapse">Login/Register</a>
+          </form>
+    
+
+
+      </div>
+    
   </nav>
 </div>
 

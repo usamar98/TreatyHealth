@@ -4,21 +4,25 @@ import bars from '../assets/bars.png'
 import Phone from '../assets/Phone.png'
 import Pointer from '../assets/Pointer.png'
 import Envelope from '../assets/Envelope.png'
+import fb from '../assets/fb.png'
+import instagram from '../assets/instagram.png'
+import twitter from '../assets/twitter.png'
+import youtube from '../assets/youtube.png'
 const Form = () => {
   return (
    <>
    <section className='Form '>
    <div className="container-fluid">
     <div className="row p-5">
-        <div className="col-md-5">
+        <div className="col-md-12 col-lg-5  ps-5 pad">
             <div>
-            <span className='txt'>Stay In touch</span>
+            <span className='txt text-uppercase'>Stay In touch</span>
             </div>
-            <div>
+            <div className=''>
                 <span className='contact'>Contact Us</span>
                 
             </div>
-            <img src={bars} alt="" className='img'/>
+            <img src={bars} alt="" className='img '/>
             <div className='py-4'>
                <img src={Phone} alt="" className='imgg'/> <span className='adress ms-5 '>+123456789</span>
             </div>
@@ -28,13 +32,18 @@ const Form = () => {
             <div className='py-4'>
             <img src={Envelope} alt="" className='imgg' />  <span className='adress ms-5'>1234AddressUsa</span>
             </div>
-            <div className="social">
+            <div className="social mt-5">
+             <img src={fb} alt="" className='social-img' />
+             <img src={instagram} alt="" className='social-img'/>
+             <img src={twitter} alt="" className='social-img'/>
+             <img src={youtube} alt="" className='social-img'/>
+
 
             </div>
            
 
         </div>
-        <div className="col-md-7 shadow p-5">
+        <div className="col-md-12 col-lg-7 shadow p-5">
         <div className=" mt-5 ">
       <form>
         <div className="row">

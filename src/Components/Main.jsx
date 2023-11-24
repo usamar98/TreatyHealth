@@ -28,7 +28,7 @@ const Main = () => {
         <img src={Schedule} alt="Image" className="img-fluid img" />
       </div>
       <span className='heading'>Medication</span>
-      <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa commodi autem ex magnam praesentium unde, </p>
+      <p className="mt-3 color">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa commodi autem ex magnam praesentium unde, </p>
     </div>
     </div>
 
@@ -38,7 +38,7 @@ const Main = () => {
         <img src={medication} alt="Image" className="img-fluid img" />
       </div>
       <span className='heading'>Schdule</span>
-      <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa commodi autem ex magnam praesentium unde, maiores labore ab corrupti</p>
+      <p className="mt-3 color">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
     </div>
     </div>
 
@@ -48,7 +48,7 @@ const Main = () => {
         <img src={Compliance} alt="Image" className="img-fluid img" />
       </div>
       <span className='heading'>Complance</span>
-      <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa commodi autem ex magnam praesentium unde, maiores </p>
+      <p className="mt-3 color">Lorem ipsum dolor, sit amet consectetur commodi autem ex magnam praesentium unde, maiores </p>
     </div>
     </div>
 
@@ -58,16 +58,14 @@ const Main = () => {
         <img src={TrackVisit} alt="Image" className="img-fluid img" />
       </div>
       <span className='heading'>Track Visit</span>
-      <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa commodi autem ex magnam praesentium unde, maiores labore ab </p>
+      <p className="mt-3 color">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa commodi autem ex magnam praesentium unde </p>
     </div>
     </div>
    
         </div>
         
       </div>
-      <div className='py-5'>
-        <hr/>
-      </div>
+      
     </>
   )
 }
