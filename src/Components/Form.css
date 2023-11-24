@@ -1,6 +1,9 @@
 :root{
     color: rgb(71 184 199);
 }
+.Form{
+    padding-top: 70px;
+}
 .txt{
     color: rgb(71 184 199);
     font-size: 40px;

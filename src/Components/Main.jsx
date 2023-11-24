@@ -9,8 +9,8 @@ import TrackVisit from '../assets/Track-Visit.png'
 const Main = () => {
   return (
     <>
-      <div class="container-fluid ">
-      <div class="row d-flex justify-content-evenly padding ">
+      <div class="container-fluid main2">
+      <div class="row d-flex justify-content-evenly  ">
       
 <div className="col-lg-2  ">
 <div className="container flex text-center mt-4">
