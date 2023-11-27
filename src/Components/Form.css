@@ -10,8 +10,8 @@
     font-weight: 500;
 }
 .Form {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 .contact{
     font-size: 70px;
@@ -48,5 +48,13 @@
     
     .pad{
         padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 992px)   {
+
+    
+    .Form {
+        padding-top: 20px;
     }
 }
