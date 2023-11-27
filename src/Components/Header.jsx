@@ -9,12 +9,7 @@ import logo from '../assets/logo.jpg'
 
  
 const Header = () => {
-  const borderStyle = {
-    border: '20px solid  !important', 
-    
-   
-   
-  };
+  
 
   const settings = {
     dots: true,
@@ -59,8 +54,8 @@ const Header = () => {
                 <a class="nav-link home" href="#" data-bs-dismiss="collapse">Contact</a>
             </li>
         </ul>
-        <form class="d-flex border rounded-pill border-info custom-mr-4  " style={borderStyle}>
-            <a class="nav-link px-5 py-2 home home-3" href="#" data-bs-dismiss="collapse">Login/Register</a>
+        <form class="d-flex border border-3 rounded-pill border-info custom-mr-4  " >
+            <a class="nav-link px-5 py-3 home home-3" href="#" data-bs-dismiss="collapse">Login/Register</a>
         </form>
     </div>
 </nav>
