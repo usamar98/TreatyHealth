@@ -7,6 +7,7 @@
 .main{
     background-image:url('../assets/bg.jpg') ;
     max-width: 100vw;
+
 }
 .logo-size{
     font-size: 2.4em;
@@ -45,9 +46,10 @@
 .border{
     color: rgb(73, 139, 148);
 }
+
 .line{
     width: 90px;
-    height: 52px;
+    height: 45px;
     border-bottom: 5px solid red;
       position: absolute;
     }
@@ -106,11 +108,9 @@
    border: none;
    
 }
-.custom-mr-3 {
-    padding-right: 12rem; 
-}
+
 .custom-mr-4{
-    margin-left: 8rem; 
+    margin-left: 6rem; 
 }
 @media screen and (max-width: 992px)  {
     .line{
@@ -119,17 +119,14 @@
     .custom-mr-3 ul{
        display: flex;
        align-items: center;
-       margin-left: 15%;
+      
         
     }
-    .custom-mr-3 .custom-mr-4 {
+    .custom-mr-3 .custom-mr-4{
       display: flex;
       justify-content: center;
+      padding-right: 73px;
     
     }
 }
-@media screen and (min-width: 992px) and (max-width: 1225px) {
-    .custom-mr-4{
-        margin-left: 0.5rem; 
-    }
-}
+

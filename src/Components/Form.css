@@ -64,3 +64,9 @@
         gap: 10px;
      }
 }
+@media screen and (max-width: 1200px)  {
+    .pad{
+        margin-left:30% ;
+
+     }
+}

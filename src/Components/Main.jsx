@@ -12,7 +12,7 @@ const Main = () => {
       <div class="container-fluid main2">
       <div class="row d-flex justify-content-evenly  ">
       
-<div className="col-lg-2  ">
+<div className="col-xxl-2 col-lg-6  ">
 <div className="container flex text-center mt-4">
       <div className=" bord  p-5">
         <img src={chat} alt=""   className="img-fluid img" />
@@ -22,7 +22,7 @@ const Main = () => {
     </div>
     </div>
 
-    <div className="col-lg-2 ">
+    <div className="col-xxl-2 col-lg-6">
     <div className="container flex text-center mt-4">
       <div className=" bord  p-5">
         <img src={Schedule} alt="Image" className="img-fluid img" />
@@ -32,7 +32,7 @@ const Main = () => {
     </div>
     </div>
 
-    <div className="col-lg-2 ">
+    <div className="col-xxl-2 col-lg-6">
     <div className="container flex text-center mt-4">
       <div className=" bord  p-5">
         <img src={medication} alt="Image" className="img-fluid img" />
@@ -42,7 +42,7 @@ const Main = () => {
     </div>
     </div>
 
-    <div className="col-lg-2 ">
+    <div className="col-xxl-2 col-lg-6">
     <div className="container flex text-center mt-4">
       <div className=" bord  p-5">
         <img src={Compliance} alt="Image" className="img-fluid img" />
@@ -52,7 +52,7 @@ const Main = () => {
     </div>
     </div>
 
-    <div className="col-lg-2 ">
+    <div className="col-xxl-2 col-lg-12">
     <div className="container flex text-center mt-4">
       <div className=" bord  p-5">
         <img src={TrackVisit} alt="Image" className="img-fluid img" />

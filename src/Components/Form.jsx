@@ -32,7 +32,7 @@ const Form = () => {
             <div className='py-4'>
             <img src={Envelope} alt="" className='imgg' />  <span className='adress ms-5'>1234AddressUsa</span>
             </div>
-            <div className="social mt-5 ">
+            <div className="social mt-5 mb-xxl-0 mb-lg-5">
              <img src={fb} alt="" className='social-img' />
              <img src={instagram} alt="" className='social-img'/>
              <img src={twitter} alt="" className='social-img'/>
