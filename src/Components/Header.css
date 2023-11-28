@@ -112,6 +112,22 @@
 .custom-mr-4{
     margin-left: 8rem; 
 }
+@media screen and (max-width: 992px)  {
+    .line{
+        display: none; 
+    }
+    .custom-mr-3 ul{
+       display: flex;
+       align-items: center;
+       margin-left: 15%;
+        
+    }
+    .custom-mr-3 .custom-mr-4 {
+      display: flex;
+      justify-content: center;
+    
+    }
+}
 @media screen and (min-width: 992px) and (max-width: 1225px) {
     .custom-mr-4{
         margin-left: 0.5rem; 
