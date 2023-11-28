@@ -13,8 +13,8 @@ const Form = () => {
    <>
    <section className='Form '>
    <div className="container-fluid">
-    <div className="row p-5">
-        <div className="col-md-12 col-lg-5  ps-5 pad">
+    <div className="row p-5 mx-auto">
+        <div className="col-md-12 col-lg-12 col-xl-4  pad">
             <div>
             <span className='txt text-uppercase'>Stay In touch</span>
             </div>
@@ -32,7 +32,7 @@ const Form = () => {
             <div className='py-4'>
             <img src={Envelope} alt="" className='imgg' />  <span className='adress ms-5'>1234AddressUsa</span>
             </div>
-            <div className="social mt-5">
+            <div className="social mt-5 ">
              <img src={fb} alt="" className='social-img' />
              <img src={instagram} alt="" className='social-img'/>
              <img src={twitter} alt="" className='social-img'/>
@@ -43,20 +43,20 @@ const Form = () => {
            
 
         </div>
-        <div className="col-md-12 col-lg-7 shadow p-5">
+        <div className="col-md-12 col-lg-12 col-xl-8 shadow p-5 mr-5">
         <div className=" mt-5 ">
-      <form>
+      <form className=''>
         <div className="row">
           {/* Left Column */}
           <div className="col-md-6">
-            <div className="mb-3 ">
+            <div className="mb-4 border border-2 rounded">
               <input type="text" className="form-control custom-input" id="input1"  placeholder="NAME*" />
             </div>
-            <div className="mb-3">
+            <div className="mb-4 border border-2 rounded">
 
               <input type="text" className="form-control custom-input" id="input2" placeholder="EMAIL*" />
             </div>
-            <div className="mb-3">
+            <div className="mb-4 border border-2 rounded">
 
               <input type="text" className="form-control custom-input1" id="input3" placeholder="SUBJECT*" />
             </div>
@@ -64,8 +64,8 @@ const Form = () => {
 
           {/* Right Column */}
           <div className="col-md-6">
-            <div className="mb-3">
-              <textarea className="form-control" id="message" rows="9" placeholder="MESSAGE*"></textarea>
+            <div className=" border border-2 rounded">
+              <textarea className="form-control" id="message" rows="10" placeholder="MESSAGE*"></textarea>
             </div>
           </div>
         </div>

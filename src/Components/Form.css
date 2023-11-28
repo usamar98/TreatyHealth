@@ -58,3 +58,9 @@
         padding-top: 20px;
     }
 }
+@media screen and (min-width: 1200px) and (max-width: 1250px) {
+    .social{
+        display: flex;
+        gap: 10px;
+     }
+}

@@ -27,9 +27,9 @@ const Header = () => {
   return (
     <>
     <section className='section1 '>
-    <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light py-4">
-    <a class="navbar-brand ms-0" href="#">
+
+    <nav class="navbar navbar-expand-lg navbar-light py-4 d-flex align-items-center">
+    <a class="navbar-brand " href="#">
         <img src={logo} alt="" />
         <span class="logo-size">treaty</span>
     </a>
@@ -39,7 +39,7 @@ const Header = () => {
     </button>
 
     <div class="collapse navbar-collapse d-lg-flex justify-content-end custom-mr-3 gap-5" id="navbarSupportedContent">
-        <ul class="navbar-nav gap-5">
+        <ul class="navbar-nav gap-xl-5 gap-lg-2">
             <li class="nav-item home">
                 <a class="nav-link home-2" href="#" data-bs-dismiss="collapse">Home</a>
                 <span class='line'></span>
@@ -59,7 +59,7 @@ const Header = () => {
         </form>
     </div>
 </nav>
-</div>
+
 
 
 
