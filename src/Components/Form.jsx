@@ -27,13 +27,13 @@ const Form = () => {
             </div>
             <img src={bars} alt="" className='img '/>
             <div className='py-4'>
-               <img src={Phone} alt="" className='imgg'/> <span className='adress ms-5 '>+0123456789110</span>
+               <img src={Phone} alt="" className='imgg'/> <span className='adress ms-md-5 ms-sm-2'>+0123456789110</span>
             </div>
             <div className='py-4'>
-            <img src={Pointer} alt="" className='imgg'/>  <span className='adress ms-5 '>Email@email.com</span>
+            <img src={Pointer} alt="" className='imgg'/>  <span className='adress ms-md-5 ms-sm-2'>Email@email.com</span>
             </div>
             <div className='py-4'>
-            <img src={Envelope} alt="" className='imgg' />  <span className='adress ms-5'>1234AddressUsa</span>
+            <img src={Envelope} alt="" className='imgg' />  <span className='adress ms-md-5 ms-sm-2'>1234AddressUsa</span>
             </div>
             <div className="social mt-5 mb-xxl-0 mb-lg-5">
              <img src={fb} alt="" className='social-img' />

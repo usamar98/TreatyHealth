@@ -74,10 +74,10 @@
    
     
 }
-@media screen and (max-width: 392px)  {
+@media screen and (max-width: 425px)  {
     
      .contact{
-        font-size: 60px;
+        font-size: 40px;
      }
 }
 @media screen and (max-width: 668px)  {
