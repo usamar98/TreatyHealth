@@ -28,10 +28,10 @@ const Header = () => {
     <>
     <section className='section1 '>
 
-    <nav class="navbar navbar-expand-lg navbar-light py-4 px-xl-5 px-lg-5">
+    <nav class="navbar navbar-expand-lg navbar-light py-3 px-xl-5 px-lg-5">
   <div class="container-fluid px-xl-5 px-lg-0 px-md-5">
 
-    <a class="navbar-brand" href="#"> <img src={logo} alt="" /></a>
+    <a class="navbar-brand" href="#"> <img src={logo} alt="" /> <span class="logo-size">treaty</span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

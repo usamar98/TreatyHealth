@@ -11,9 +11,12 @@ import youtube from '../assets/youtube.png'
 const Form = () => {
   return (
    <>
-   <section className='Form '>
+   <section className='Form py-sm-2'>
    <div className="container-fluid">
-    <div className="row p-5 mx-auto">
+    <div className="row p-md-5 p-sm-1 mx-auto">
+      <div>
+        
+      </div>
         <div className="col-md-12 col-lg-12 col-xl-4  pad">
             <div>
             <span className='txt text-uppercase'>Stay In touch</span>
@@ -24,7 +27,7 @@ const Form = () => {
             </div>
             <img src={bars} alt="" className='img '/>
             <div className='py-4'>
-               <img src={Phone} alt="" className='imgg'/> <span className='adress ms-5 '>+123456789</span>
+               <img src={Phone} alt="" className='imgg'/> <span className='adress ms-5 '>+0123456789110</span>
             </div>
             <div className='py-4'>
             <img src={Pointer} alt="" className='imgg'/>  <span className='adress ms-5 '>Email@email.com</span>
@@ -43,11 +46,11 @@ const Form = () => {
            
 
         </div>
-        <div className="col-md-12 col-lg-12 col-xl-8 shadow p-5 mr-5">
-        <div className=" mt-5 ">
+        <div className="col-md-12 col-lg-12 col-xl-8 shadow p-md-5 p-sm-1 mr-5">
+        <div className=" mt-5 p-2">
       <form className=''>
         <div className="row">
-          {/* Left Column */}
+      
           <div className="col-md-6">
             <div className="mb-4 border border-2 rounded">
               <input type="text" className="form-control custom-input" id="input1"  placeholder="NAME*" />
@@ -62,14 +65,14 @@ const Form = () => {
             </div>
           </div>
 
-          {/* Right Column */}
+       
           <div className="col-md-6">
             <div className=" border border-2 rounded">
               <textarea className="form-control" id="message" rows="10" placeholder="MESSAGE*"></textarea>
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-end ">
+        <div className="d-flex justify-content-end pt-md-3 py-3">
         <button type="submit" className="btn btn-primary button">Submit</button>
       </div>
       </form>

@@ -2,7 +2,8 @@
     color: rgb(71 184 199);
 }
 .services{
-    padding-top: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .Amazingservices{
     color: rgb(71 184 199);
@@ -30,4 +31,23 @@
   padding: 25px 0px;
  
  
+}
+@media screen and (max-width: 1400px)  {
+    .font{
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 992px)  {
+    .font{
+        font-size: 75%;
+    }
+    
+}
+@media screen and (max-width: 600px)  {
+    .services{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+  
 }

@@ -9,7 +9,7 @@ import TrackVisit from '../assets/Track-Visit.png'
 const Main = () => {
   return (
     <>
-      <div class="container-fluid main2">
+      <div class="container-fluid main2 ">
       <div class="row d-flex justify-content-evenly  ">
       
 <div className="col-xxl-2 col-lg-6  ">

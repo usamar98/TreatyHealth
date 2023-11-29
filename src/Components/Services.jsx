@@ -5,16 +5,16 @@ import  bars from '../assets/bars.png'
 const Services = () => {
   return (
    <>
-   <div className='py-5'>
+   <div className='py-3'>
         <hr/>
       </div>
-   <section className='services'>
+   <section className='services '>
     <div class="container-fluid ">
     <div className="row">
          <div className="col-xxl-6 col-lg-12 d-flex align-items-center">
            <img src={sliceing} alt="" className='img-fluid'/>
          </div>
-         <div className="col-xxl-6  col-lg-12 px-lg-5 px-md-5 px-md-5 px-sm-5 align-self-center font ">
+         <div className="col-xxl-6  col-lg-12 px-lg-5 px-md-5 px-md-5 px-sm-5 align-self-center  font ">
             <div className='pt-5'>
               <span className='Amazingservices text-uppercase'>Our Amazing Services</span>
               <p className='Enagage'>Enagage the Families You Serve</p>
@@ -44,12 +44,13 @@ const Services = () => {
 
           </div>
     </div>
-    <div className='py-5'>
-        <hr/>
-      </div>
+    
     </div>
    
    </section>
+   <div className='py-3'>
+        <hr/>
+      </div>
    </>
   )
 }

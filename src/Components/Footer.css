@@ -1,3 +1,13 @@
 .text{
     font-size: 2em;
 }
+.footer{
+    padding-top: 50px;
+
+}
+@media screen and (max-width: 600px)  {
+    .footer{
+     padding-top: 30px;
+    }
+  
+}

@@ -34,3 +34,10 @@
     color: light;
     line-height: 1.2;
 }
+@media screen and (max-width: 600px)  {
+    .main2{
+        padding-top: 10px;
+        
+    }
+  
+}
