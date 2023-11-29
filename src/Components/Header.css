@@ -130,3 +130,14 @@
     }
 }
 
+@media screen and (max-width: 425px)  {
+   
+ 
+    .custom-mr-3 .custom-mr-4{
+      display: flex;
+      justify-content: center;
+      margin-left: 0rem; 
+      padding-right: 0px;
+    
+    }
+}
